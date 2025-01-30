@@ -1,0 +1,28 @@
+html, body
+{
+    background-color: black;
+}
+
+#grid-root
+{
+    border: 3px solid rgb(45, 45, 45)
+}
+
+#name-header
+{
+    color: gray
+}
+
+.side-section, .main-section
+{
+    color: lightgray;
+    border-bottom: 3px solid rgb(45, 45, 45)
+}
+
+@media screen and (min-width: 783px)
+{
+    .main-section
+    {
+        border-left: 3px solid rgb(45, 45, 45)
+    }
+}

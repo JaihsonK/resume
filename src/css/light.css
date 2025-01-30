@@ -1,0 +1,28 @@
+html, body
+{
+    background-color: white;
+}
+
+#grid-root
+{
+    border: 3px solid lightgray
+}
+
+#name-header
+{
+    color: gray
+}
+
+.side-section, .main-section
+{
+    color: black;
+    border-bottom: 3px solid lightgray;
+}
+
+@media screen and (min-width: 783px)
+{
+    .main-section
+    {
+        border-left: 3px solid lightgray;
+    }
+}
